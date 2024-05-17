@@ -1,0 +1,27 @@
+.multi {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .multi td {
+    border: 1px solid #e0e0e0; /* 淺灰色的邊框 */
+    padding: 10px; /* 更大的內邊距 */
+    text-align: center;
+    transition: background-color 0.3s; /* 添加過渡效果 */
+  }
+  
+  .multi tr:nth-child(even) {
+    background-color: #f9f9f9; /* 淡灰色的背景 */
+  }
+  
+  .multi tr:hover td {
+    background-color: #ffcc80; /* 淺橙色的 hover 背景 */
+  }
+  
+  .multi th {
+    background-color: #2196f3; /* 鮮豔的藍色表頭背景 */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  

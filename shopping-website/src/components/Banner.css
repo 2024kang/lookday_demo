@@ -1,0 +1,24 @@
+.banner {
+    background-color: #212529; /* 暗色背景 */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增加陰影效果 */
+    transition: box-shadow 0.3s ease; /* 添加過渡效果 */
+  
+    border-radius: 10px; /* 圓角 */
+  }
+  
+  .banner:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 鼠標懸停時的陰影效果 */
+  }
+  
+  .banner h2 {
+    color: #f8f9fa; /* 暗色文字 */
+    font-size: 32px;
+    transition: color 0.3s ease; /* 添加文字顏色的過渡效果 */
+  }
+  
+  .banner:hover h2 {
+    color: #ffc107; /* 鼠標懸停時文字顏色變化 */
+  }
+  

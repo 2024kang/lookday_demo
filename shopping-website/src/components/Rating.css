@@ -1,0 +1,27 @@
+.rating-container {
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明的白色背景 */
+    border-radius: 10px; /* 圓角邊框 */
+    padding: 40px; /* 調整內邊距 */
+    display: flex; /* 使用 flexbox */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* 水平置中 */
+  }
+  
+  .rating {
+    display: inline-block;
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .star img {
+    width: 40px; /* 調整星星圖片的大小 */
+    height: auto;
+  }
+  
+  .star.filled img {
+    filter: grayscale(0); /* 反灰 */
+  }
+  

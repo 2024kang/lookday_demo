@@ -1,0 +1,28 @@
+/* Reset some default browser styles */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orange;
+  color: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Helvetica;
+}
+
+/* 创建一个固定的间距 */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 在垂直方向上居中排列 */
+}
+
+/* 为每个组件添加底部间距 */
+.app-container > * {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

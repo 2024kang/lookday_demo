@@ -1,0 +1,23 @@
+.home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero {
+    background-image: url('https://example.com/your-fashion-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}

@@ -1,0 +1,53 @@
+.product-rankings {
+    display: flex;
+    justify-content: space-around; /* Or use space-between, depending on your preference */
+    flex-wrap: wrap; /* Allows wrapping to the next line if there's not enough space */
+}
+
+.product-ranking {
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px 10px;
+    flex: 1; /* Allows the ranking lists to take equal space */
+    min-width: 250px; /* Ensures a minimum width to keep layout consistent */
+}
+
+.product-ranking h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6f61;
+    font-size: 28px;
+}
+
+.product-ranking ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.product-item:hover {
+    background-color: #ffefef;
+}
+
+.rank {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.name {
+    flex-grow: 1;
+    text-align: right;
+    color: #555;
+}

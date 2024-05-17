@@ -1,0 +1,41 @@
+/* RegisterForm.css */
+
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* 白色 */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFE4B5; /* 淺橙色 */
+    color: #505050; /* 白色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .error-message {
+    color: #FF0000; /* 紅色 */
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
+  .form-container {
+    background-color: #FFA500; /* 橘色 */
+    color: #ffffff; /* 白色 */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  

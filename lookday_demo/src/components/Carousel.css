@@ -1,0 +1,34 @@
+.carousel {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden; /* 隱藏超出部分的圖片 */
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持圖片比例並填滿元素 */
+    transition: transform 0.5s ease; /* 添加過渡效果 */
+  }
+  
+  .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+    color: #fff; /* 白色文字 */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2; /* 將按鈕置於圖片之上 */
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  

@@ -1,0 +1,14 @@
+.carousel-container {
+    width: 100%;
+  }
+  
+  .carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-video {
+    width: 100%;
+    height: 600px;
+    object-fit: cotain; /* 使用 cover 或 contain 來控制顯示模式 */
+  }
+  

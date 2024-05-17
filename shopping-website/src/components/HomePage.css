@@ -1,0 +1,11 @@
+.banner {
+    background-color: #f0f0f0; /* 背景顏色 */
+    padding: 20px; /* 內邊距 */
+    text-align: center; /* 文字居中 */
+  }
+  
+  .banner h2 {
+    color: #333; /* 文字顏色 */
+    font-size: 32px; /* 字體大小 */
+  }
+  
