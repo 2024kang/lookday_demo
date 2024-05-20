@@ -2,6 +2,14 @@ import { Link } from 'react-router-dom'; // 導入 Link 組件
 import './TitleBar.css';
 import logo from '../images/lookdayLogo.png'; // 確保你有一個 logo.png 文件在對應的路徑
 import SearchBar from './SearchBar';
+// import{ useNavigate } from "react-router-dom";
+// function btnClick(){
+//   const navigate = useNavigate();
+
+//   function handleClick(){
+//     navigate("/home");
+//   }
+// }
 
 const TitleBar = () => {
   return (
@@ -12,7 +20,8 @@ const TitleBar = () => {
         <SearchBar />
       </div>
       <div className="titlebar-right">
-        <button className="titlebar-button">客服中心</button>
+        <Link to="/contact">
+        <button className="titlebar-button">客服中心</button></Link>
         <button className="titlebar-button">購物車</button>
         <button className="titlebar-button">收藏</button>
         <button className="titlebar-button">註冊</button>
